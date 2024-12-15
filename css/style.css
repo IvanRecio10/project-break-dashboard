@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #ffffff;
+    background-size: cover;
+    background-position: center;
+    transition: background-image 1s ease; 
+}
+
+.container {
+    text-align: center;
+    background-color: rgba(58, 63, 71, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+h2 {
+    margin-top: 30px;
+    font-size: 1.8rem;
+}
+
+.reloj-container {
+    margin-bottom: 40px;
+}
+
+.clock {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.date {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.message {
+    font-size: 1.25rem;
+    font-style: italic;
+}
+
+.weather-container {
+    margin-top: 20px;
+}
+
+.weather, .forecast {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+#weather-info, #weather-details {
+    margin: 10px;
+}
+
+.password-container {
+    margin-top: 40px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 1.2rem;
+}
+
+input {
+    padding: 8px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #61dafb;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #21a1f1;
+}
+
+.result {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    word-break: break-all;
+}

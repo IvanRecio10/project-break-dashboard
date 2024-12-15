@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reloj, Generador de Contraseñas y Estación Meteorológica</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Reloj, Generador de Contraseñas y Estación Meteorológica</h1>
+
+        <div class="reloj-container">
+            <div id="clock" class="clock"></div>
+            <div id="date" class="date"></div>
+            <div id="message" class="message"></div>
+        </div>
+
+        <div class="weather-container">
+            <h2>Clima Actual</h2>
+            <div id="location" class="location"></div>
+            <div id="weather" class="weather">
+                <div id="weather-info"></div>
+                <div id="weather-details"></div>
+            </div>
+            <h2>Previsión por Horas</h2>
+            <div id="forecast" class="forecast"></div>
+        </div>
+
+        <div class="password-container">
+            <h2>Generador de Contraseñas Seguras</h2>
+            <div class="form-group">
+                <label for="length">Longitud de la contraseña (12-50 caracteres):</label>
+                <input type="number" id="length" min="12" max="50" value="12">
+            </div>
+            <button id="generateBtn">Generar Contraseña</button>
+            <div id="result" class="result"></div>
+        </div>
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
